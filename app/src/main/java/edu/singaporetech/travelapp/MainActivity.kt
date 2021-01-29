@@ -1,4 +1,4 @@
-package edu.singaporetech.travelapp
+package edu.singaporetech.travelapp 
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
