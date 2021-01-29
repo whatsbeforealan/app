@@ -18,6 +18,20 @@
         </activity>
 
         <!-- TODO need to do some declarations here -->
+        <activity
+            android:name=".TempConverterActivity"
+            android:label="Temperature Converter">
+        </activity>
+
+        <activity
+            android:name=".CurrencyConverterActivity"
+            android:label="Currency Converter">
+        </activity>
+
+        <activity
+            android:name=".EmailActivity"
+            android:label="Email Friend">
+        </activity>
 
     </application>
 

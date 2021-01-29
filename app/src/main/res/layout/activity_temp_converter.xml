@@ -6,5 +6,58 @@
     android:layout_height="match_parent">
 
     <!-- TODO implement the UI here... -->
+    <EditText
+        android:id="@+id/editTextTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Enter temperature here"/>
 
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radioFahrenheit">
+        
+        <RadioButton
+            android:id="@+id/radioFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="to Fahrenheit">
+        </RadioButton>
+        
+        <RadioButton
+            android:id="@+id/radioCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="to Celsius">
+        </RadioButton>
+        
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERT"
+        android:textAllCaps="true"
+        android:layout_marginBottom="3dp">
+    </Button>
+    
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:textAllCaps="true">
+    </Button>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:freezesText="true"
+        android:textSize="10sp" />
+    
 </LinearLayout>
